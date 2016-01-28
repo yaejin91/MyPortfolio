@@ -44,7 +44,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Portfolio</a>
+          <a class="navbar-brand page-scroll" href="#page-top">YP</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,7 +76,7 @@
         <div class="header-content-inner">
           <h1>Yae Jin Park</h1>
           <hr>
-          <p>Expanding hardware engineering skills into web and app development is my thing.</p>
+          <p>Expanding hardware engineering skills into web and app development</p>
           <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
       </div>
@@ -86,7 +86,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">It's All Logic.</h2>
+            <h2 class="section-heading">About Me</h2>
             <hr class="light">
             <p class="text-faded">
               I’m one of those people that always seem to be deep in thought, and bumping into life's natural obstacles as a result. I’m always thinking about challenges I come across and possible solutions for those challenges. These challenges can range from simple problems such as choosing what to eat for dinner to more complex ones, such as the JavaScript code I was debugging. As frustrating as code bugs can be, the feeling I get after bashing my head against the wall for hours (or even days) and finally figuring out the solution is absolutely enlightening. It’s all a logic battle, something I’ve enjoyed ever since I had the capability of thinking things through in multiple facets.
@@ -201,6 +201,7 @@
       <div class="container text-center">
         <div class="call-to-action">
           <h2>Any Questions?</h2>
+          <hr class="light">
           <a href="#contact" class="btn btn-primary btn-xl page-scroll">Contact Me!</a>
         </div>
       </div>
@@ -210,12 +211,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">If Resume Is Your Thing...</h2>
+            <h2 class="section-heading">If Resume is Your Thing...</h2>
             <hr>
             <p>
               If you want more details on my past employment and need to see my resume, I do have that as well. Click the button below!
             </p>
-            <a href="Resume/yaejin_dev_resume.pdf" class="btn btn-primary btn-xl page-scroll">Resume</a>
+            <a href="Resume/yaejin_dev_resume.pdf" class="btn btn-primary btn-xl page-scroll" id="resume-btn">Resume</a>
           </div>
         </div>
       </div>
@@ -288,12 +289,18 @@
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
                 <h3>Flashcard App</h3>
-                <p>This is the very first app I ever made with JavaScript to help me memorize the basic concepts of JavaScript. I applied my basic knowledge of JavaScript in order to study more JavaScript. That's a lot of studying.</p>
-                <img src="images/portfolio/flashcards.png" class="img-responsive" alt="">
-                <p>The Flascard App is connected to this portfolio. Click the button below to try it out!</p>
+                <p>This is the very first app I ever made with JavaScript to help myself memorize and understand the basic concepts of JavaScript. I applied my basic knowledge of JavaScript in order to study more JavaScript. That's a lot of studying.</p>
+                <p id="sample-img-wrapper">
+                  <img src="images/portfolio/flashcards.png" alt="" align="middle">
+                </p>
+                <p>The Flashcard App is connected to this portfolio. Click the button below to try it out.</p>
                 <div id="modal-TTT">
                 </div>
-                <button type="button" class="btn btn-default center-block" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                <a type="button" class="btn btn-primary btn-xl" id="to-flashcards" href="flashcards/flashcards.html">Try It!</a>
+                <div class="github-link">
+                  <a type="button" class="btn btn-default" href="https://github.com/yaejin91/Flashcards">GitHub Repository</a>
+                </div>
+                  <button type="button" class="btn btn-default center-block closing-modal" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
               </div>
             </div>
           </div>
@@ -313,7 +320,8 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
-                <p>Coming Soon!</p>
+                <h3>Trello-Clone</h3>
+                <p>Trello-Clone first started as a simple todo-list app that many new developers are familiar with. But what fun is that? I decided to 'upgrade' it to an app that's similar to Trello, a well-known organizer web app. Trello-Clone is built with MEAN stack, and it is my first functioning app that I've ever built with full stack on my own.</p>
                 <div id="modal-TTT">
                 </div>
                 <button type="button" class="btn btn-default center-block" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -336,6 +344,7 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
+                <h3>Eggercise</h3>
                 <p>Coming Soon!</p>
                 <button type="button" class="btn btn-default center-block" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
               </div>
